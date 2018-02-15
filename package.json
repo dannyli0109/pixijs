@@ -1,0 +1,33 @@
+{
+    "name": "pixi-game",
+    "version": "1.0.0",
+    "description": "A little game using pixi.js library",
+    "main": "index.js",
+    "author": "Caterina Dattoma",
+    "license": "MIT",
+    "scripts": {
+        "start": "webpack-dev-server --open --config webpack.dev.js",
+        "build": "webpack --config webpack.prod.js"
+    },
+    "dependencies": {
+        "clean-webpack-plugin": "^0.1.17",
+        "copy-webpack-plugin": "^4.3.1",
+        "css-loader": "^0.28.9",
+        "extract-text-webpack-plugin": "^3.0.2",
+        "file-loader": "^1.1.6",
+        "html-webpack-plugin": "^2.30.1",
+        "image-webpack-loader": "^3.4.2",
+        "jshint": "^2.9.5",
+        "node-sass": "^4.7.2",
+        "path": "^0.12.7",
+        "pixi.js": "^4.7.0",
+        "popmotion": "^8.1.8",
+        "popmotion-spinnable": "^2.0.0",
+        "sass-loader": "^6.0.6",
+        "style-loader": "^0.19.1",
+        "url-loader": "^0.6.2",
+        "webpack": "^3.10.0",
+        "webpack-dev-server": "^2.11.0",
+        "webpack-merge": "^4.1.1"
+    }
+}
